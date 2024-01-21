@@ -1,11 +1,14 @@
+#import necrssary modeules
 from qiskit import *
 from qiskit.visualization import plot_histogram
 from qiskit_aer.primitives import Sampler
 from qiskit_aer import AerSimulator
 
+#define the value of c and d
 c = "1"
 d = "0"
 
+#initailize the circuit
 protocol = QuantumCircuit(2)
 
 # Prepare ebit used for superdense coding
